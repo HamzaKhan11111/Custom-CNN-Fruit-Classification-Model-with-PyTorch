@@ -1,0 +1,7 @@
+version: '2.24.6'
+services:
+  ubuntuimage:
+    container_name: my_container
+    build:
+      context: .
+      dockerfile: Dockerfile
